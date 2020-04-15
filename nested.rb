@@ -84,7 +84,7 @@ def adding_matz
      new_person = {:yukihiro_matsumoto => {
    :known_for => "Ruby",
     :languages => ["LISP", "C"]
-    }
+    }}
     programmer_hash.unshift(new_person)
     programmer_hash
 end
