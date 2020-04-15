@@ -85,7 +85,7 @@ def adding_matz
    :known_for => "Ruby",
     :languages => ["LISP", "C"]
     }}
-    programmer_hash.unshift(new_person)
+    new_person >> programmer_hash
     programmer_hash
 end
 
